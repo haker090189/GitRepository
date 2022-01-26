@@ -3,15 +3,15 @@
 
 int main()
 {
-    float x,y,z;
+    float x,y,a;
 
     printf("x=");
     scanf("%f",&x);
     printf("y=");
     scanf("%f",&y);
 
-    z=x*y-(x*x*x-y*y*y)/(x*x+2*x*y+y*y);
+    a=x*y-(x*x*x-y*y*y)/(x*x+2*x*y+y*y);
 
-    printf("z=%.3f",z);
+    printf("a=%.3f",a);
     return 0;
     }
